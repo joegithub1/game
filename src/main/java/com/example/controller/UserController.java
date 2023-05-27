@@ -17,4 +17,9 @@ public class UserController {
     public String hello(){
         return "hello";
     }
+
+    @RequestMapping("/add")
+    public String add(){
+        return "成功";
+    }
 }
